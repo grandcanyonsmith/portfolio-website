@@ -124,26 +124,26 @@ function App() {
       </header>
       <div className="image-container">
       <div className="row-1-mobile">
-      <div className="text-container-mobile" center>
-      <div column>
+      {/* <div className="text-container-mobile" center> */}
+      <div lower-text column>
         <h1 className="app-title-mobile"> Valentwear e-Commerce</h1>
         <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
-      </div>
+      {/* </div> */}
       <div className="image-box-right">
       <a href="https://valentwear.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626656464/IMG_2768_dgr2ak.jpg" rounded  className="image-right"/>
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626656464/IMG_2768_dgr2ak.jpg" rounded  className="image-right-mobile"/>
       </a>
       </div>
       </div>
       <div className="row-1-mobile">
-      <div className="text-container-mobile">
+      {/* <div className="text-container-mobile"> */}
       <div column center>
         <h1 className="app-title-mobile"> Mario Basner Gallery</h1>
         <h3 className="app-description-mobile">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
         </div>
         
-      </div>
+      {/* </div> */}
       <div className="image-box-center">
       <a href="https://mariobasner.com//" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626660919/MarioB_Website_Mock_p3kfhm.jpg" rounded  className="image-mobile"/>
@@ -152,12 +152,10 @@ function App() {
       </div>
       </div>
       <div className="row-1-mobile">
-      <div className="text-container-mobile">
       <div column >
         <h1 className="app-title-mobile"> Mosaic</h1>
         <h3 className="app-description-mobile">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
         </div>
-      </div>
       <div className="image-box-center">
       <a href="https://mosaic-new.herokuapp.com/outfit/622" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-mobile"/>

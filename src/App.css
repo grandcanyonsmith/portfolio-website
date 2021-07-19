@@ -88,6 +88,17 @@ header {
   transition: 0.5s all ease-in-out;
 }
 
+.image-right-mobile {
+  float: right;
+  clear:right;
+  width: 75%;
+  /* height: 95%; */
+  /* margin-top: 15em; */
+  padding-top:5em;
+  padding-bottom: -5em;
+  transition: 0.5s all ease-in-out;
+}
+
 .image-mobile {
   float: center;
   clear:center;
@@ -142,6 +153,8 @@ header {
   margin-left: 1.5em;
   margin-top: 5em;
 }
+
+
 
 .extra-space {
   margin-top: 5em;

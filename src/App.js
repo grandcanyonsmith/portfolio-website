@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {Image, Container} from 'react-bootstrap'
+import Music from '../src/music'
 
 function App() {
   return (
@@ -19,6 +20,18 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <header>
+        <div className="logo-intro">
+        Canyon Smith Portfolio Website.
+        </div>
+        <div className="social-media-icons">
+      <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
+      <a href="https://twitter.com/grandcanyon77?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
+      <Music></Music>
+      </div>
+      
+      </header>
       <div className="image-container">
       <div className="row-1">
       <div className="text-container">
@@ -71,6 +84,7 @@ function App() {
       </div>
       </div>
     </div>
+    
     </div>
 
   );

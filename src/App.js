@@ -36,7 +36,10 @@ function App() {
       </header> */}
       <header>
         <div className="logo-intro">
-        <h1>Canyon Smith Portfolio Website.</h1>
+        <div className="header-logo" column>
+        <h1>CANYON SMITH</h1>
+        <h1 className="sub-title">PORTFOLIO WEBSITE.</h1>
+        </div>
         </div>
         <div className="social-media-icons">
       <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
@@ -50,7 +53,7 @@ function App() {
       <div className="row-1">
       <div className="text-container">
         <div column>
-        <h1 className="app-title extra-space"> Valentwear e-Commerce</h1>
+        <h1 className="app-title"> Valentwear e-Commerce</h1>
         <h3 className="app-description">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       </div>
@@ -112,7 +115,10 @@ function App() {
     <OnMobile>
     <header>
         <div className="logo-intro">
-        Canyon Smith Portfolio Website.
+        <div className="header-logo" column>
+        <h1>CANYON SMITH</h1>
+        <h1 className="sub-title">PORTFOLIO WEBSITE.</h1>
+        </div>
         </div>
         <div className="social-media-icons">
       <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>

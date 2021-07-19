@@ -31,8 +31,8 @@ function App() {
       </a>
     </div>
     <div>
-      <a href="https://siliconstonks.com/performance/11/2020" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626658801/IMG_2769_xqjeso.jpg" rounded  className="image-right"/>
+      <a href="https://siliconstonks.com/performance/11/2020" id="bottl e" onclick="document.location=this.id+'.html';return false;" >
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626658801/IMG_2769_xqjeso.jpg" rounded  className="image-right-ll"/>
       </a>
     </div>
     </div>

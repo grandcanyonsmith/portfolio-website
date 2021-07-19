@@ -11,6 +11,10 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
 <!-- Add font awesome icons -->
+    
+
+
+
     <script>$(function () {
       var playerTrack = $("#player-track"),
         bgArtwork = $("#bg-artwork"),
@@ -58,9 +62,9 @@
         ],
         albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
         trackUrl = [
-          "https://s21.aconvert.com/convert/p3r68-cdx67/6wlac-fsb79.mp3",
-          "https://s21.aconvert.com/convert/p3r68-cdx67/2vgjo-mc940.mp3",
-          "https://s21.aconvert.com/convert/p3r68-cdx67/k1py7-hq04g.mp3",
+          "https://res.cloudinary.com/apexx/video/upload/v1626713444/After_the_fall_master_jh4lvp.mp3",
+          "https://res.cloudinary.com/apexx/video/upload/v1626713444/After_the_fall_master_jh4lvp.mp3",
+          "https://res.cloudinary.com/apexx/video/upload/v1626713444/After_the_fall_master_jh4lvp.mp3",
           "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
           "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
         ],
@@ -203,9 +207,8 @@
           currTrackName = trackNames[currIndex];
           currArtwork = albumArtworks[currIndex];
     
-          // audio.src = trackUrl[currIndex];
-          audio.src = 'https://s21.aconvert.com/convert/p3r68-cdx67/6wlac-fsb79.mp3'
-          
+          audio.src = trackUrl[currIndex];
+    
           nTime = 0;
           bTime = new Date();
           bTime = bTime.getTime();
@@ -234,7 +237,7 @@
       }
     
       function initPlayer() {
-        audio = new Audio('https://s21.aconvert.com/convert/p3r68-cdx67/6wlac-fsb79.mp3');
+        audio = new Audio();
     
         selectTrack(0);
     

@@ -50,8 +50,8 @@ function App() {
       <div className="row-1">
       <div className="text-container">
         <div column>
-        <h1> 1. Valentwear</h1>
-        <h3>E-Commerce Website.</h3>
+        <h1 className="app-title extra-space"> Valentwear e-Commerce</h1>
+        <h3 className="app-description">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       </div>
       <div className="image-box">
@@ -69,8 +69,8 @@ function App() {
       </div>
       <div className="text-container">
       <div column>
-        <h1> 2. Mario Basner</h1>
-        <h3>Art Gallery Website.</h3>
+      <h1 className="app-title extra-space"> Mario Basner Gallery</h1>
+        <h3 className="app-description">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       </div>
@@ -78,8 +78,8 @@ function App() {
       <div className="row-1">
       <div className="text-container">
       <div column>
-        <h1> 3. Mosaic</h1>
-        <h3>Online Shopping.</h3>
+      <h1 className="app-title"> Mosaic</h1>
+        <h3 className="app-description">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
         </div>
       </div>
       <div stlye="margin-left: 10em; margin-top: 5em; padding-top:100px;"className="image-box">
@@ -92,8 +92,8 @@ function App() {
       <div className="row-1">
       <div className="text-container">
       <div column>
-        <h1> 4. Silicon Stonks</h1>
-        <h3>Stock advice.</h3>
+      <h1 className="app-title">Silicon Stonks</h1>
+        <h3 className="app-description">Monthly stock-advice website with over 1,000 monthly subscribers built using Express and Node.js. Backend workers hosted on AWS Cloud, front-end hosted on Heroku, with data being stored on MongoDB.</h3>
         </div>
         <p>
         
@@ -125,9 +125,9 @@ function App() {
       <div className="image-container">
       <div className="row-1-mobile">
       <div className="text-container-mobile" center>
-      <div column center>
-        <h1> 1. Valentwear</h1>
-        <h3>E-Commerce Website.</h3>
+      <div column>
+        <h1 className="app-title"> Valentwear e-Commerce</h1>
+        <h3 className="app-description">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       </div>
       <div className="image-box-right">
@@ -139,8 +139,8 @@ function App() {
       <div className="row-1-mobile">
       <div className="text-container-mobile">
       <div column center>
-        <h1> 2. Mario Basner</h1>
-        <h3>Art Gallery Website.</h3>
+        <h1 className="app-title"> Mario Basner Gallery</h1>
+        <h3 className="app-description">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       </div>
@@ -153,9 +153,9 @@ function App() {
       </div>
       <div className="row-1-mobile">
       <div className="text-container-mobile">
-      <div column center>
-        <h1> 3. Mosaic</h1>
-        <h3>Online Shopping.</h3>
+      <div column >
+        <h1 className="app-title"> Mosaic</h1>
+        <h3 className="app-description">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
         </div>
       </div>
       <div className="image-box-center">
@@ -167,8 +167,8 @@ function App() {
       </div>
       <div className="row-1-mobile">
       <div column center>
-        <h1> 4. Silicon Stonks</h1>
-        <h3>Stock advice.</h3>
+        <h1 className="app-title">Silicon Stonks</h1>
+        <h3 className="app-description">Monthly stock-advice website with over 1,000 monthly subscribers built using Express and Node.js. Backend workers hosted on AWS Cloud, front-end hosted on Heroku, with data being stored on MongoDB.</h3>
         </div>
       <div className="image-box-center">
       <a href="https://siliconstonks.com/latest" id="bottle" onclick="document.location=this.id+'.html';return false;" >

@@ -115,7 +115,7 @@ function App() {
     <OnMobile>
     <header>
         <div className="logo-intro">
-        <div className="header-logo" column>
+        <div className="header-logo-mobile" column>
         <h1>CANYON SMITH</h1>
         <h1 className="sub-title">PORTFOLIO WEBSITE.</h1>
         </div>

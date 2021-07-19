@@ -160,7 +160,7 @@ header {
 .extra-space {
   margin-top: 5em;
 }
-.image-mobile:hover {
+.image-right-mobile:hover {
   transform: scale(1.1)
 
 }
@@ -175,6 +175,10 @@ header {
 
 .image-box-center {
   display: flex; flex-direction: row; justify-content: center; height: fit-content; transition: 0.5s all ease-in-out;
+}
+
+.image-box-right:hover hover {
+  transform: scale(1.1);
 }
 
 

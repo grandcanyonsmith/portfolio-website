@@ -53,7 +53,7 @@ function App() {
       <div className="row-1">
       <div className="text-container">
         <div column>
-        <h1 className="app-title"> Valentwear e-Commerce</h1>
+        <h1 className="app-title"> Valentwear E-Commerce</h1>
         <h3 className="app-description">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       </div>
@@ -132,7 +132,7 @@ function App() {
       <div className="row-1-mobile">
       {/* <div className="text-container-mobile" center> */}
       <div lower-text column>
-        <h1 className="app-title-mobile"> Valentwear e-Commerce</h1>
+        <h1 className="app-title-mobile"> Valentwear E-Commerce</h1>
         <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       {/* </div> */}

@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  }
+
+
+.image-right {
+  float: right;
+  clear:right;
+  width: 50%;
+  height: 30%;
+  transition: 0.5s all ease-in-out;
+  margin-top: 5em;
+}
+
+.image-right:hover {
+  transform: scale(1.1);
+}
+
+.image-left {
+  float: left;
+  clear:left;
+  width: 60%;
+  height: 30%;
+  transition: 0.5s all ease-in-out;
+  margin-top: 5em;
+  margin-left: 1em;
+}
+
+.image-left:hover {
+  transform: scale(1.1);
+}
+
+
+

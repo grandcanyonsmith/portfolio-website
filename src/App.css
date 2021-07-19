@@ -60,6 +60,7 @@
   height: 30%;
   transition: 0.5s all ease-in-out;
   margin-right: 15em;
+  margin-top: 5em;
 }
 
 .image-right:hover {

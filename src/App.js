@@ -126,8 +126,8 @@ function App() {
       <div className="row-1-mobile">
       <div className="text-container-mobile" center>
       <div column>
-        <h1 className="app-title"> Valentwear e-Commerce</h1>
-        <h3 className="app-description">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
+        <h1 className="app-title-mobile"> Valentwear e-Commerce</h1>
+        <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
         </div>
       </div>
       <div className="image-box-right">
@@ -139,8 +139,8 @@ function App() {
       <div className="row-1-mobile">
       <div className="text-container-mobile">
       <div column center>
-        <h1 className="app-title"> Mario Basner Gallery</h1>
-        <h3 className="app-description">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
+        <h1 className="app-title-mobile"> Mario Basner Gallery</h1>
+        <h3 className="app-description-mobile">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       </div>
@@ -154,8 +154,8 @@ function App() {
       <div className="row-1-mobile">
       <div className="text-container-mobile">
       <div column >
-        <h1 className="app-title"> Mosaic</h1>
-        <h3 className="app-description">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
+        <h1 className="app-title-mobile"> Mosaic</h1>
+        <h3 className="app-description-mobile">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
         </div>
       </div>
       <div className="image-box-center">
@@ -167,8 +167,8 @@ function App() {
       </div>
       <div className="row-1-mobile">
       <div column center>
-        <h1 className="app-title">Silicon Stonks</h1>
-        <h3 className="app-description">Monthly stock-advice website with over 1,000 monthly subscribers built using Express and Node.js. Backend workers hosted on AWS Cloud, front-end hosted on Heroku, with data being stored on MongoDB.</h3>
+        <h1 className="app-title-mobile">Silicon Stonks</h1>
+        <h3 className="app-description-mobile">Monthly stock-advice website with over 1,000 monthly subscribers built using Express and Node.js. Backend workers hosted on AWS Cloud, front-end hosted on Heroku, with data being stored on MongoDB.</h3>
         </div>
       <div className="image-box-center">
       <a href="https://siliconstonks.com/latest" id="bottle" onclick="document.location=this.id+'.html';return false;" >

@@ -114,11 +114,32 @@ header {
   font-family: sf-p
 }
 
+.app-description-mobile {
+  margin-left: 2em;
+  font-size: 18px;
+  color: grey;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: start;
+  width: 50%;
+  line-height: 2em;
+  font-family: sf-p
+}
+
 .app-title {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  margin-left: 3.5em;
+  margin-left: 3em;
+  margin-top: 5em;
+}
+.app-title-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 1.5em;
   margin-top: 5em;
 }
 

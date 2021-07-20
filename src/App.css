@@ -152,9 +152,6 @@ header {
   margin-top: 5em;
 }
 
-.icon {
-  padding:
-}
 
 .extra-space {
   margin-top: 5em;
@@ -289,7 +286,6 @@ header {
   text-decoration: none;
   border-radius: 50%;
   color: black;
-  margin-left: 20px;
 }
 
 .fa:hover {

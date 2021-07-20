@@ -42,9 +42,9 @@ function App() {
         </div>
         </div>
         <div className="social-media-icons">
-      <a class="icon" href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
-      <a class="icon" href="https://www.linkedin.com/in/canyon-smith-7a6445174/" class="fa fa-linkedin"></a>
-      <a class="icon" href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
+      <a  href="https://www.linkedin.com/in/canyon-smith-7a6445174/" class="fa fa-linkedin"></a>
+      <a  href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
       {/* <Music></Music> */}
       </div>
       

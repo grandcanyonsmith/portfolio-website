@@ -65,7 +65,7 @@ function App() {
       </div>
       <div className="row-1">
       <div className="image-box">
-      <a href="https://mariobasner.com//" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <a href="https://mariobasner.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626660919/MarioB_Website_Mock_p3kfhm.jpg" rounded  className="image-left"/>
       </a>
 

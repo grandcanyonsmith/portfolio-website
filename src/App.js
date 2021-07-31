@@ -81,15 +81,29 @@ function App() {
       <div className="row-1">
       <div className="text-container">
       <div column>
-      <h1 className="app-title"> Mosaic</h1>
-        <h3 className="app-description">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap with Python workers as a backend that collects data. Utilizes Cloudinary for image storage.</h3>
+      <h1 className="app-title">Anomaly - Stock Options</h1>
+        <h3 className="app-description">Built in ReactJS front-end with a Node and Python backend, this application is built for users to maximize profits by showing anomalies in call-options risk-reward contracts that the market is willing to buy to purchase their written calls. Built using PosgreSQL, and hosted through AWS and Heroku.</h3>
         </div>
       </div>
       <div stlye="margin-left: 10em; margin-top: 5em; padding-top:100px;"className="image-box">
-      <a href="https://mosaic-new.herokuapp.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-left-ll"/>
+      <a href="http://stock-option-scanner.herokuapp.com/stocks" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1627770642/IMG_2935_aptdd7.jpg" rounded  className="image-box-options-photo"/>
       </a>
 
+      </div>
+      </div>
+      <div className="row-1">
+      <div stlye="margin-left: 10em; margin-top: 5em; padding-top:100px;"className="image-box">
+      <a href="https://mosaic-new.herokuapp.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-left"/>
+      </a>
+
+      </div>
+      <div className="text-container">
+      <div column>
+      <h1 className="app-title"> Mosaic</h1>
+        <h3 className="app-description">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap with Python workers as a backend that collects data. Utilizes Cloudinary for image storage.</h3>
+        </div>
       </div>
       </div>
       <div className="row-1">

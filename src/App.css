@@ -234,6 +234,28 @@ header {
   width: 50%;
 }
 
+.image-box-options-photo {
+  /* width: 75%;
+  margin-left: 24.5em;
+  float: left;
+  clear: left;
+  transition: 0.5s all ease-in-out;
+  padding-top: 10em;
+  padding-left: 10px; */
+  float: left;
+  clear:left;
+  width: 70%;
+  /* height: 100%; */
+  transition: 0.5s all ease-in-out;
+  margin-top: 4em;
+  margin-left: 25.75em;
+  padding-left: 10px;
+}
+
+.image-box-options-photo:hover {
+  transform: scale(1.1);
+}
+
 .header-logo {
   margin: 1em;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

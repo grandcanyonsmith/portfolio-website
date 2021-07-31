@@ -146,7 +146,7 @@ function App() {
       <div className="row-1-mobile">
       {/* <div className="text-container-mobile" center> */}
       <div lower-text column>
-        <h1 className="app-title-mobile"> Valentwear E-Commerce</h1>
+        <h1 className="app-title-mobile"> Valentwear  <br/>  E-Commerce</h1>
         <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid for a jewelry brand Valentwear.</h3>
         </div>
       {/* </div> */}
@@ -171,6 +171,20 @@ function App() {
 
       </div>
       </div>
+      
+      <div className="row-1-mobile">
+      <div column >
+        <h1 className="app-title-mobile"> Anomaly -<br/> Stock Options</h1>
+        <h3 className="app-description-mobile">Built in ReactJS front-end with a Node and Python backend, this application is built for users to maximize profits by showing anomalies in call-options risk-reward contracts that the market is willing to buy to purchase their written calls. Built using PosgreSQL, and hosted through AWS and Heroku.</h3>
+        </div>
+        <div className="image-box-center">
+      <a href="http://stock-option-scanner.herokuapp.com/stocks" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1627770642/IMG_2935_aptdd7.jpg" rounded  className="image-mobile-options-photo"/>
+      </a>
+
+      </div>
+      </div>
+
       <div className="row-1-mobile">
       <div column >
         <h1 className="app-title-mobile"> Mosaic</h1>

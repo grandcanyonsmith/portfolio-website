@@ -73,7 +73,7 @@ function App() {
       <div className="text-container">
       <div column>
       <h1 className="app-title extra-space"> Mario Basner Gallery</h1>
-        <h3 className="app-description">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, custom CSS, SCSS, and HTML, this website is meant to showcase user experience and interface.</h3>
+        <h3 className="app-description">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, custom CSS, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       </div>
@@ -133,7 +133,7 @@ function App() {
       {/* <div className="text-container-mobile" center> */}
       <div lower-text column>
         <h1 className="app-title-mobile"> Valentwear E-Commerce</h1>
-        <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid. Media content, design, and branding all done by me.</h3>
+        <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid for a jewelry brand Valentwear.</h3>
         </div>
       {/* </div> */}
       <div className="image-box-right">
@@ -146,12 +146,12 @@ function App() {
       {/* <div className="text-container-mobile"> */}
       <div column center>
         <h1 className="app-title-mobile"> Mario Basner Gallery</h1>
-        <h3 className="app-description-mobile">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, this website is meant to showcase user experience and interface.</h3>
+        <h3 className="app-description-mobile">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, custom CSS, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       {/* </div> */}
       <div className="image-box-center">
-      <a href="https://mariobasner.com//" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <a href="https://mariobasner.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626660919/MarioB_Website_Mock_p3kfhm.jpg" rounded  className="image-mobile"/>
       </a>
 
@@ -160,10 +160,10 @@ function App() {
       <div className="row-1-mobile">
       <div column >
         <h1 className="app-title-mobile"> Mosaic</h1>
-        <h3 className="app-description-mobile">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap, with Python workers as a backend that collects data.</h3>
+        <h3 className="app-description-mobile">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap with Python workers as a backend that collects data. Utilizes Cloudinary for image storage.</h3>
         </div>
       <div className="image-box-center">
-      <a href="https://mosaic-new.herokuapp.com/outfit/622" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <a href="https://mosaic-new.herokuapp.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-mobile"/>
       </a>
 

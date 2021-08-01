@@ -87,7 +87,7 @@ function App() {
       </div>
       <div stlye="margin-left: 10em; margin-top: 5em; padding-top:100px;"className="image-box">
       <a href="http://stock-option-scanner.herokuapp.com/stocks" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1627770642/IMG_2935_aptdd7.jpg" rounded  className="image-box-options-photo"/>
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1627778608/IMG_2934_wzcqnx.jpg" rounded  className="image-box-options-photo"/>
       </a>
 
       </div>
@@ -116,7 +116,7 @@ function App() {
         
         </p>
       </div>
-      <div className="image-box">
+      <div className="image-box-bottom">
       <a href="https://siliconstonks.com/latest" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1626658801/IMG_2769_xqjeso.jpg" rounded  className="image-left"/>
       </a>
@@ -174,7 +174,7 @@ function App() {
       
       <div className="row-1-mobile">
       <div column >
-        <h1 className="app-title-mobile"> Anomaly -<br/> Stock Options</h1>
+        <h1 className="app-title-mobile"> Anomaly - <br/> Stock Options</h1>
         <h3 className="app-description-mobile">Built in ReactJS front-end with a Node and Python backend, this application is built for users to maximize profits by showing anomalies in call-options risk-reward contracts that the market is willing to buy to purchase their written calls. Built using PosgreSQL, and hosted through AWS and Heroku.</h3>
         </div>
         <div >

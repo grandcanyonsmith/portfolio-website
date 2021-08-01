@@ -136,7 +136,7 @@ function App() {
         </div>
         <div className="social-media-icons">
       <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
-      <a href="https://twitter.com/grandcanyon77?lang=en" class="fa fa-twitter"></a>
+      <a  href="https://www.linkedin.com/in/canyon-smith-7a6445174/" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
       {/* <Music></Music> */}
       </div>
@@ -152,7 +152,7 @@ function App() {
       {/* </div> */}
       <div className="image-box-right">
       <a href="https://valentwear.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626656464/IMG_2768_dgr2ak.jpg" rounded  className="image-right-mobile"/>
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626656464/IMG_2768_dgr2ak.jpg" rounded  className="image-mobile"/>
       </a>
       </div>
       </div>

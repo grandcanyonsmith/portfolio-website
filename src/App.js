@@ -3,6 +3,10 @@ import './App.css';
 import {Image, Container} from 'react-bootstrap'
 import Music from '../src/music'
 import { layoutGenerator } from 'react-break';
+import { motion } from "framer-motion"
+import Texty from '../src/text'
+
+
 
 const layout = layoutGenerator({
 
@@ -19,36 +23,37 @@ const OnDesktop = layout.is('desktop');
 function App() {
   return (
     <div className="App">
+      
       <OnDesktop>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
       <header>
+        
         <div className="logo-intro">
         <div className="header-logo" column>
+          
         <h1>CANYON SMITH</h1>
+        
         <h1 className="sub-title">PORTFOLIO WEBSITE.</h1>
+        {/* <div style={{display:"flex"}}> */}
+        {/* <Texty/> */}
+        {/* </div> */}
+
         </div>
         </div>
+        <div className="info-container">
+          <div style={{display:"flex", flexDirection:"column", justifyContent:"flex-end"}}> 
+            <Texty/>
+          </div>
         <div className="social-media-icons">
       <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
       <a  href="https://www.linkedin.com/in/canyon-smith-7a6445174/" class="fa fa-linkedin"></a>
-      <a  href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
       {/* <Music></Music> */}
+      </div>
       </div>
       
       </header>
+      
+      
       <div className="image-container">
       <div className="row-1">
       <div className="text-container">
@@ -66,7 +71,13 @@ function App() {
       <div className="row-1">
       <div className="image-box">
       <a href="https://mariobasner.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626660919/MarioB_Website_Mock_p3kfhm.jpg" rounded  className="image-left"/>
+      <motion.div
+  drag="x"
+  dragConstraints={{ left: -50, right: 50 }}
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+> <Image src="https://res.cloudinary.com/apexx/image/upload/v1626660919/MarioB_Website_Mock_p3kfhm.jpg" rounded  className="image-left"/></motion.div>
+      
       </a>
 
       </div>
@@ -95,7 +106,13 @@ function App() {
       <div className="row-1">
       <div stlye="margin-left: 10em; margin-top: 5em; padding-top:100px;"className="image-box">
       <a href="https://mosaic-new.herokuapp.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-left"/>
+      <motion.div
+  drag="x"
+  dragConstraints={{ left: -100, right: 100 }}
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 1 }}
+> <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-left"/></motion.div>
+      
       </a>
 
       </div>
@@ -118,7 +135,13 @@ function App() {
       </div>
       <div className="image-box-bottom">
       <a href="https://siliconstonks.com/latest" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626658801/IMG_2769_xqjeso.jpg" rounded  className="image-left"/>
+      <motion.div
+  drag="x"
+  dragConstraints={{ left: -100, right: 100 }}
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+> <Image src="https://res.cloudinary.com/apexx/image/upload/v1626658801/IMG_2769_xqjeso.jpg" rounded  className="image-left"/></motion.div>
+      
       </a>
 
       </div>
@@ -132,13 +155,19 @@ function App() {
         <div className="header-logo-mobile" column>
         <h1>CANYON SMITH</h1>
         <h1 className="sub-title">PORTFOLIO WEBSITE.</h1>
+        
         </div>
         </div>
+        <div className="info-container">
+          <div style={{display:"flex", flexDirection:"column", justifyContent:"flex-end"}}> 
+            <Texty/>
+          </div>
         <div className="social-media-icons">
       <a href="https://github.com/grandcanyonsmith/" class="fa fa-github"></a>
       <a  href="https://www.linkedin.com/in/canyon-smith-7a6445174/" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/grandcanyonsmith/?hl=en" class="fa fa-instagram"></a>
       {/* <Music></Music> */}
+      </div>
       </div>
       
       </header>

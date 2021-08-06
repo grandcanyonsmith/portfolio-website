@@ -5,6 +5,9 @@ import Music from '../src/music'
 import { layoutGenerator } from 'react-break';
 import { motion } from "framer-motion"
 import Texty from '../src/text'
+import { Parallax } from 'react-scroll-parallax';
+
+
 
 
 
@@ -158,27 +161,33 @@ function App() {
       <div className="row-1-mobile">
       {/* <div className="text-container-mobile" center> */}
       <div lower-text column className="background-app-description">
-        <h1 className="app-title-mobile"> Valentwear E-Commerce</h1>
+        <h1 className="app-title-mobile"> Valentwear</h1>
+        <h1 className="app-subtitle-mobile">E-commerce with influence.</h1>
         <h3 className="app-description-mobile">E-commerce website built from scratch in Shopify through Liquid for a jewelry brand Valentwear.</h3>
         </div>
       {/* </div> */}
       <div className="image-box-right">
+      <Parallax y={[-20, 25]} tagOuter="figure"> 
       <a href="https://valentwear.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1628213638/bullet-proof_adobespark_cd59no.png" rounded  className="image-mobile"/>
       </a>
+      </Parallax>
       </div>
       </div>
       <div className="row-1-mobile">
       {/* <div className="text-container-mobile"> */}
       <div column center className="background-app-description">
         <h1 className="app-title-mobile"> Mario Basner Gallery</h1>
+        <h1 className="app-subtitle-mobile">World renowned art gallery showcase.</h1>
         <h3 className="app-description-mobile">A beautifully designed art gallery website for one of the most renounded art galleries in Las Vegas. Built in ArtLogic, custom CSS, this website is meant to showcase user experience and interface.</h3>
         </div>
         
       {/* </div> */}
       <div className="image-box-center">
       <a href="https://mariobasner.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+      <Parallax y={[-20, 25]} tagOuter="figure"> 
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1628210292/Macbook_Wireframe_1_dvviib.png" rounded  className="image-mobile-ll"/>
+      </Parallax>
       </a>
 
       </div>
@@ -186,12 +195,15 @@ function App() {
       
       <div className="row-1-mobile">
       <div column className="background-app-description" >
-        <h1 className="app-title-mobile"> Anomaly - Stock Options</h1>
+        <h1 className="app-title-mobile"> Anomaly</h1>
+        <h1 className="app-subtitle-mobile">Stock Options Profit Calculator.</h1>
         <h3 className="app-description-mobile">Built in ReactJS front-end with a Node and Python backend, this application is built for users to maximize profits by showing anomalies in call-options risk-reward contracts that the market is willing to buy to purchase their written calls. Built using PosgreSQL, and hosted through AWS and Heroku.</h3>
         </div>
         <div className="image-mobile-lll" >
       <a href="http://stock-option-scanner.herokuapp.com/stocks" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+        <Parallax y={[-5, 5]} > 
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1628216860/IMG_3067_adobespark_auoe4y.png" rounded  className="image-mobile-options-photo"/>
+      </Parallax>
       </a>
 
       </div>
@@ -200,11 +212,14 @@ function App() {
       <div className="row-1-mobile">
       <div column className="background-app-description">
         <h1 className="app-title-mobile"> Mosaic</h1>
+        <h1 className="app-subtitle-mobile">E-Commerce Search Engine.</h1>
         <h3 className="app-description-mobile">A Javascript App built to optimize customer purchase behavior by allowing the user to input articles of clothing that they already have, and then see outfits where they are only missing one or two articles of clothing to complete the outfit before they purcahse. Built using Bootstrap with Python workers as a backend that collects data. Utilizes Cloudinary for image storage.</h3>
         </div>
-      <div className="image-box-center">
+      <div className="image-box-lv">
       <a href="https://mosaic-new.herokuapp.com/" id="bottle" onclick="document.location=this.id+'.html';return false;" >
-      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-mobile"/>
+      <Parallax y={[-20, 20]} tagOuter="figure"> 
+      <Image src="https://res.cloudinary.com/apexx/image/upload/v1626679406/IMG_2774_z0r0kb.jpg" rounded  className="image-mobile-lv"/>
+      </Parallax>
       </a>
 
       </div>
@@ -212,10 +227,12 @@ function App() {
       <div className="row-1-mobile">
       <div column center className="background-app-description">
         <h1 className="app-title-mobile">Silicon Stonks</h1>
+        <h1 className="app-subtitle-mobile">Money made easy.</h1>
         <h3 className="app-description-mobile">Monthly stock-advice website with over 1,000 monthly subscribers built using Express and Node.js. Backend workers hosted on AWS Cloud, front-end hosted on Heroku, with data being stored on MongoDB.</h3>
         </div>
       <div className="image-mobile-V">
       <a href="https://siliconstonks.com/latest" id="bottle" onclick="document.location=this.id+'.html';return false;" >
+        
       <Image src="https://res.cloudinary.com/apexx/image/upload/v1628205675/Silicon_Stonks_iPhone_Mockup_adobespark_2_lrt013.png" rounded  className="image-mobile-bottom"/>
       </a>
 
